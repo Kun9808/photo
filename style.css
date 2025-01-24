@@ -1,0 +1,37 @@
+body {
+    background: #d66d6d;
+}
+img {
+    width: 480px;
+    height: 440px;
+}
+header {
+    height: 75px;
+    width: 100%;
+    background-color: rgba(34, 49, 52, 0.9);
+    position :fixed;
+    top: 0;
+    z-index: 10;
+  }
+  .header-right {
+    margin-right: -25px;
+    overflow: hidden;
+  }
+  .header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+  }
+  .header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  
+  .header-right .icon {
+    display: none;
+  }
+  
+ 
+ 
